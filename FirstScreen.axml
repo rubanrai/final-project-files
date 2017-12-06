@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:text="Menu"
+        android:layout_width="79.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="1.5dp"
+        android:layout_gravity="right" />
+    <ImageView
+        android:src="@drawable/blog1"
+        android:layout_width="match_parent"
+        android:layout_height="184.5dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="17.0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textureView1"
+        android:text="Here is my Blog, you can find News and Articles etc" />
+    <TextView
+        android:text="Autors: Sanam "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="54.0dp" />
+    <TextView
+        android:text="Location: India"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="49.0dp" />
+</LinearLayout>
